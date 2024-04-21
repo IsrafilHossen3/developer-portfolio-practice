@@ -219,6 +219,41 @@ nav li a {
 }
 
 .download-cv-btn {
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* footer style */
+footer {
+  margin-top: 130px;
+  padding: 130px 230px;
+  background-color: #fff8f3;
+  display: flex;
+  gap: 24px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+.footer-column-title {
+  font-size: 35px;
+  color: #181818;
+  font-weight: bold;
+}
+
+.social-icon a {
+  margin-right: 24px;
+}
+
+footer form input[type="text"],
+footer form input[type="email"],
+footer form textarea {
+  width: 100%;
+  padding: 18px 30px;
+  background: fff;
+  margin-bottom: 24px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
 }
